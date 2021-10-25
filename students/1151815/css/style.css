@@ -19,7 +19,7 @@ body {
 
 header {
 	width: 100%;
-	background-color: #a5cfe8;
+	background-color: #242323;
 	padding-bottom: 20px;
 	padding-top: 50px;
 
@@ -43,3 +43,85 @@ header {
 	margin: 0 auto;
 
 }
+
+
+
+
+body {
+	background-color: #151815;
+}
+#rcorners2 {
+  border-radius: 25px;
+  background: #151815;
+  padding: 20px;
+  width: 550px;
+ box-shadow: 0 0 10pt 20pt #100AC1;
+margin: 0 auto;
+}
+#night{
+	color: #ffffff;
+	  font-family: "Lucida Console", Monospace ,cursive;
+}
+
+h1.ufps {
+	outline-style: ridge;
+	outline-color: red;
+  background-color: #ffffff;
+	color: #000000;
+	  font-family: "Helvética", Monospace ,cursive;
+		href:"https://ww2.ufps.edu.co/";
+}
+img {
+  border-radius: 8px;
+	max-width: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+height: auto;
+center
+}
+
+
+.logo {
+	height: 80px;
+	width: 130px;
+}
+
+.proyectos {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: #0B5BFD;
+    border-radius: 15px;
+    border: 3px double #4E4C4C;
+  }
+  .proyectos:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+.github {
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+    background-color: #0B5BFD;
+    border-radius: 15px;
+    border: 3px double #4E4C4C;
+  }
+  .github:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+  .x {
+  	  text-decoration: none;
+      color: white;
+  }
