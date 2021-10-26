@@ -1,0 +1,58 @@
+body {
+	font-family: roboto;
+}
+.img img {
+	border-radius: 50%;
+	width: 50%;
+	max-width: 200px;
+	min-height: 150px;
+	margin: 0 auto;
+	border: solid;
+
+}
+
+.img {
+	display: flex;
+    align-items: center;
+}
+
+
+header {
+	width: 100%;
+	background-color: #2089E7;
+	padding-bottom: 20px;
+	padding-top: 50px;
+	border-radius: 40px;
+}
+
+.comun {
+	display: flex;
+    align-items: center;
+    background-color: #FFC300;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+.nombre {
+	display: flex;
+    justify-content: center;
+	margin: 0 auto;
+
+}
+
+.comun span,a {
+
+	margin: 0 auto;
+
+}
+
+.footer{
+	display: flex;
+    justify-content: center;
+	margin-top: 15px;
+}
+
+.proyectos{
+	text-decoration: none;
+	color: white;
+}
