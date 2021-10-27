@@ -30,7 +30,6 @@ nav {
   display: flex;
   width: 50%;
   justify-content: space-evenly;
-  position: sticky;
 }
 
 main {
@@ -39,6 +38,7 @@ main {
 }
 
 main .yo {
+  margin-top: 3rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -63,6 +63,44 @@ main .yo {
 .yo p {
   font-family: "Special Elite", cursive;
   margin: 5rem 0 1rem 0;
+}
+
+.acerca {
+  width: 100%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.acerca .tituloAcerca {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.acerca .tituloAcerca h1 {
+  font-family: "Righteous", cursive;
+  font-size: 4rem;
+}
+
+.acerca .articles {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.acerca .articles article {
+  margin-top: 2rem;
+}
+
+.acerca .articles article h2 {
+  font-family: "Rampart One", cursive;
+  font-size: 3rem;
+}
+
+.acerca .articles article p {
+  font-family: "Caveat", cursive;
+  font-size: 2.5rem;
 }
 
 .contacto {
