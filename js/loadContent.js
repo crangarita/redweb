@@ -3,8 +3,6 @@ async function loadContent() {
 	const body = document.getElementsByTagName("body")[0];
 	//loadHeader(body);
 	
-
-
 	var requestList = new XMLHttpRequest();
 	requestList.open('GET', 'data/data.txt', true);
 	requestList.onload = function (e) {
